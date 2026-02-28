@@ -1,0 +1,415 @@
+/* body>#div1{
+    background-color: black;
+    color: blue;
+    border: 40px;
+}
+
+body div div h1{ background-color: pink;
+    color: palevioletred;
+    height: 500px;
+    width: 300px;
+    border: 30px;
+
+}
+p::first-letter{
+    font-size: xx-large;
+    color: palevioletred;
+}
+p::first-line{
+    font-size: larger;
+    background: blue;
+}
+ul li::marker{
+    color: aqua;
+}
+p::selection{
+    color: palevioletred;
+    background-color: black;
+}
+p::after{
+    content: "❤️";
+
+}
+p:hover{
+    background-color: brown;
+}
+a:hover{
+    background-color:green;
+    color: violet;
+}
+a:active{
+    color: orange;
+}
+a:visited{
+    color: aqua;
+} */
+/* body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+} */
+/* h1{
+    background: linear-gradient(to left,violet,pink);
+} */
+ /* *{
+    margin: 0%;
+ }
+ #box1{
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+    background-color: palevioletred;
+    font-size: 18px;
+    /* margin: 80px; */
+    /* margin-left: 60px;
+    margin-top: 30px;
+    /* padding: 20px; */
+    /* padding-left: 20px;
+    margin: auto;
+ }
+  #box2{
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+    background-color: red;
+ } */ 
+  /* div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid palevioletred;
+    background-color: blueviolet;
+    float: left;
+  }
+  p{
+    clear: left;
+  } */
+   /* Background */
+/* body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+/* h1{
+    text-align: center;
+    background: linear-gradient(to right, violet, pink);
+    padding: 10px;
+} */
+
+/* Card container */
+/* #card{
+    width: 300px;
+    margin: 40px auto;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: white;
+} */
+
+/* Floating boxes */
+/* .box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid palevioletred;
+    background-color: blueviolet;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+} */
+
+/* Clear float */
+/* p{
+    clear: left;
+    margin-top: 15px;
+} */
+
+/* Pseudo elements */
+/* p::first-letter{
+    font-size: xx-large;
+    color: palevioletred;
+}
+
+p::after{
+    content: " ❤️";
+} */
+
+/* Hover effects */
+/* p:hover{
+    background-color: brown;
+    color: white;
+} */
+
+/* Link states */
+/* a{
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: green;
+    color: violet;
+}
+
+a:active{
+    color: orange;
+}
+
+a:visited{
+    color: aqua;
+} */ 
+ /* #box1{
+    border: 2px solid;
+    width: 900px;
+    height: 50px;
+    background-color: aquamarine;
+    position: fixed;
+    font-size: 22px;
+    left: 0;
+    top: 0;
+   
+
+ }
+  #box2{
+    border: 2px solid;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(255, 127, 159);
+    font-size: 22px;
+    position: fixed;
+    left: 30;
+    top:150;
+    bottom: 0;
+    z-index: -1;
+    
+
+ }
+ #box3{
+    border: 2px solid;
+    width: 550px;
+    height: 40px;
+    background-color: rgb(242, 255, 127);
+    font-size: 22px;
+    position: relative;
+    left: 30;
+    top:-10;
+    bottom: 0;
+ }
+ #box4{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 187, 127);
+    font-size: 22px;
+    position: absolute;
+    left: 400;
+    top:-10;
+    bottom: 0;
+ }
+ #box5{
+    border: 2px solid;
+    width: 550px;
+    height: 40px;
+    background-color: rgb(185, 127, 255);
+    font-size: 22px;
+    position: static;
+    margin-top: 80px;
+    bottom: 0;
+ } */
+  /* #parent{
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    border: solid ;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(12,1fr);
+   
+  }
+
+.cont{
+    background-color: purple;
+    margin: 5px;
+}
+.c1{
+    grid-row-start: 1;
+    grid-row-end: 13;
+}
+.c2{
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+.c3{
+    grid-row-start: 7;
+    grid-row-end: 13;
+}
+.c4{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.c5{
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+.c6{
+    grid-row-start: 9;
+    grid-row-end: 13;
+}
+.c7{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.c8{
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.c9{
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+.c10{
+    grid-row-start: 10;
+    grid-row-end: 13;
+}
+.c11{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.c12{
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.c13{
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.c14{
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+.c15{
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+.c16{
+    grid-row-start: 11;
+    grid-row-end: 13;
+} */
+  #parent{
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    border: solid ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,1fr);
+    /* justify-content:space-evenly;
+    align-items:end; */
+  }
+
+.cont{
+    background-color: purple;
+    margin: 10px;
+}
+.c1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.c2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.c3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.c4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.c5{
+     grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.c6{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.c7{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.c8{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.c9{
+     grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.c10{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.c11{
+     grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.c12{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.c13{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.c14{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.c15{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.c16{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.c17{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
