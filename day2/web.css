@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BACKGROUND */
+body{
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url(bg.jpg) no-repeat center / cover;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+/* LOGO */
+.logo{
+  font-size: 32px;
+  font-weight: 800;
+  color: orange;
+}
+
+/* NAV LINKS */
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* SEARCH */
+.search-box{
+  display: flex;
+}
+
+.search-box input{
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+.search-box button{
+  padding: 8px 18px;
+  font-size: 14px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero{
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+/* LEFT CONTENT */
+.content{
+  max-width: 600px;
+}
+
+.content h1{
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.content h1 span{
+  color: orange;
+}
+
+.content p{
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #eaeaea;
+}
+
+.join-btn{
+  padding: 12px 28px;
+  font-size: 16px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* LOGIN BOX */
+.login-box{
+  width: 360px;
+  background: rgba(0,0,0,0.9);
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.login-box h2{
+  background: white;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.login-box input{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid orange;
+  color: white;
+  outline: none;
+}
+
+.login-btn{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup a{
+  color: orange;
+  text-decoration: none;
+}
+
+/* ===== DROPDOWN ===== */
+.dropdown{
+  position: relative;
+}
+
+.dropdown-menu{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: black;
+  list-style: none;
+  padding: 10px 0;
+  display: none;
+  min-width: 160px;
+  border-radius: 8px;
+}
+
+.dropdown-menu li{
+  padding: 10px 20px;
+  
+}
+
+.dropdown-menu a{
+  font-size: 14px;
+  
+
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+  
+}
